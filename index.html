@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./CSS/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
 
@@ -613,59 +609,50 @@
         </button>
 
         <form class="form js-speaker-form" autocomplete="off">
-          <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
-          <div class="form-field form-field-margin">
-            <lable class="form-lable"
-              >Имя
-              <input class="form-input" type="text" name="name" />
-              <svg class="form-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#icon-name"></use>
-              </svg>
-            </lable>
-          </div>
+          <b class="forms-title">Оставьте свои данные, мы вам перезвоним</b>
 
-          <div class="form-field form-field-margin">
-            <lable class="form-lable"
-              >Телефон
-              <input class="form-input" type="tel" name="telephone" />
-              <svg class="form-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#icon-phone"></use>
-              </svg>
-            </lable>
-          </div>
-
-          <div class="form-field form-field-margin">
-            <label class="form-lable"
-              >Почта
-              <input class="form-input" type="email" name="mail" />
-              <svg class="form-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#icon-sms"></use>
-              </svg>
-            </label>
-          </div>
-
-          <div class="form-field form-field-texarea-margin">
-            <lable class="form-lable"
-              >Комментарий
-              <textarea
-                class="form-textarea"
-                name="comment"
-                rows="8"
-                placeholder="Введите текст"
-              ></textarea>
-            </lable>
-          </div>
-
-          <div class="check-box">
-            <label class="lable-box">
-              <input class="checkbox" type="checkbox" name="" value="" />
-              <svg class="checkbox-icon" width="16" height="15">
-                <use href="./images/symbol-defs.svg#icon-check"></use>
-              </svg>
-              <span>Соглашаюсь с рассылкой и принимаю
-              <a href="#" class="form-lable-checkbox">Условия договора</a></span>
-            </label>
-          </div>
+          <lable class="lable-forms field-forms field-forms-margin"
+            >Имя
+            <input class="forms-input" type="text" name="name" />
+            <svg class="forms-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-name"></use>
+            </svg>
+          </lable>
+          <lable class="lable-forms field-forms field-forms-margin"
+            >Телефон
+            <input class="forms-input" type="tel" name="telephone" />
+            <svg class="forms-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </lable>
+          <label class="lable-forms field-forms field-forms-margin"
+            >Почта
+            <input class="forms-input" type="email" name="mail" />
+            <svg class="forms-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-sms"></use>
+            </svg>
+          </label>
+          <lable class="lable-forms field-forms field-forms-texarea-margin"
+            >Комментарий
+            <textarea
+              class="forms-textarea"
+              name="comment"
+              rows="8"
+              placeholder="Введите текст"
+            ></textarea>
+          </lable>
+          <label class="lable-box check-box">
+            <input class="checkbox" type="checkbox" name="checkbox" value="" />
+            <svg class="checkbox-icon" width="16" height="15">
+              <use href="./images/symbol-defs.svg#icon-check"></use>
+            </svg>
+            <span
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="#" class="forms-lable-checkbox"
+                >Условия договора</a
+              ></span
+            >
+          </label>
 
           <button class="form-btn hero-btn" type="submit">Отправить</button>
         </form>
